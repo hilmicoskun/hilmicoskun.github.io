@@ -1,15 +1,15 @@
-# Site settings
-title: Blog
-description: 'Hilmi Coşkun'un kişisel sayfası.'
+title: Hilmi Coşkun
+description: Hilmi Coşkun'un kişisel sayfası.
+
 # url: 'http://hilmicoskun.com'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Hilmi Coşkun'
+  name: Hilmi Coşkun
   email: mail@hilmicoskun.com
-  # twitter_username: 
+  # twitter_username:
   facebook_username: hilmi.coskun.549
   github_username:  hilmicoskun
   # linkedin_username:
