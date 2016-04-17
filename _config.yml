@@ -1,4 +1,4 @@
-title: Hilmi Coskun
+title: Hilmi Coşkun
 description: Hilmi Coşkun'un kişisel sayfası.
 
 # url: 'http://hilmicoskun.com'
@@ -35,5 +35,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['hilmi-coskun']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+gems: ['jekyll-paginate']
+exclude: ['Gemfile', 'Gemfile.lock', 'screenshot.png']
