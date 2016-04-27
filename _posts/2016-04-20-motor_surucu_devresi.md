@@ -7,4 +7,4 @@ tags:
   - motor sürücü
   - devre
 --- 
-![](images/motorSurucu.png)
+![](images/motorSurucuu.png)
