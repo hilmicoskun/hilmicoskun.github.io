@@ -9,7 +9,9 @@ tags:
   - L293B
   - L293D
 --- 
-![](images/l293b.png)
+<a href="/images/l293b.png">
+  <img src="/images/l293b.png" width="450">
+</a>
 
 
   
