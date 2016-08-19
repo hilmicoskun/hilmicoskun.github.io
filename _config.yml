@@ -1,3 +1,6 @@
+# Welcome to Jekyll!
+
+# Website settings
 title: Hilmi Coşkun
 description: Hilmi Coşkun'un kişisel sayfası.
 
@@ -7,33 +10,66 @@ baseurl: '/'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: Hilmi Coşkun
+  first_name: Hilmi
+  last_name: Coşkun
   email: mail@hilmicoskun.com
   # twitter_username:
   facebook_username: hilmi.coskun.549
   github_username:  hilmicoskun
   # linkedin_username:
+  head_img: 'images/profile.jpg'
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+# blog img path
+img_path: '/static/img/blog'
+
+# landing page
+landing:
+  home: 'Home'
+  about: 'About'
+  career: 'Career'
+  skills: 'Skills'
+  projects: 'Project'
+  blog: 'Blog'
+  link: 'Link'
+
+# my projects
+projects:
+  - saplatform:
+    name: 'Saplatform'
+    github_path: '/Jack614/saplatform'
+    img: 'static/img/landing/saplatform.png'
+    description: 'Test'
+
+
+# blog index
+index:
+  home: 'Home'
+  embedded: 'Embedded'
+  electronics: 'Electronics'
+  life: 'Life'
+
+# donate
+# donate:
+#   wechat: 'static/img/pay/wechat.png'
+#   alipay: 'static/img/pay/alipay.png'
+
+# comment
+disqus:
+  name: hilmicoskun
+  public_key:
+
+# google analytics
+ga:
+  id: ###
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
+encoding: "utf-8"
+
+# other settings
 highlighter: rouge
-
+markdown: kramdown
 kramdown:
-  # use Github Flavored Markdown
   input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
+  syntax_highlighter: rouge
 
-gems: ['jekyll-paginate']
-exclude: ['Gemfile', 'Gemfile.lock', 'screenshot.png']
+permalink: /blog/:year/:title/
