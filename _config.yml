@@ -56,12 +56,12 @@ index:
 
 # comment
 disqus:
-  name: hilmicoskun
-  public_key:
+  name: coskun
+  public_key: 2MpHZTdu36N0JLS3yvtEmPxEeA3rEX03Vil0Ik7WZWYOHxLMdEIuO21dlWZN0K9j
 
 # google analytics
 ga:
-  id: ###
+  id: UA-82824629-1
 
 # Build settings
 encoding: "utf-8"
@@ -73,4 +73,4 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-permalink: /blog/:year/:title/
+permalink: /:year/:title/
