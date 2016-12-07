@@ -1,14 +1,17 @@
 - name: Arduino
-  level: 95
+  level: 90
 
 - name: SolidWorks
-  level: 80
+  level: 85
 
-- name: C++
+- name: C & C++
   level: 60
 
 - name: Printed Circuit
   level: 50
 
+- name: Matlab
+  level: 50
+  
 - name: Electronics
-  level: 70
+  level: 60
