@@ -1,7 +1,18 @@
+.icon-arduino {
+  background: url('/static/img/arduino-icon.svg');
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: .4;
+}
+
 /*@import url("http://fonts.useso.com/css?family=Open+Sans:300,400,600,700");*/
 /*@import url("http://fonts.useso.com/css?family=Roboto:400,300,500,700");*/
 @import url("./open_sans.min.css");
 @import url("./roboto.min.css");
+
 /*
  *
  *   INSPINIA - Responsive Admin Theme
