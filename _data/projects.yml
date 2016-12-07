@@ -1,0 +1,8 @@
+- name: 'Şırınga'
+  img: 'static/img/landing/saplatform.png'
+  description: 'Test'
+  
+- name: 'Süper'
+  github_path: '/hilmicoskun/saplatform'
+  img: 'static/img/landing/saplatform.png'
+  description: 'Test'
