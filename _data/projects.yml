@@ -1,8 +1,8 @@
-- name: 'Şırınga'
+- name: 'Syringe Pump'
   img: 'static/img/landing/saplatform.png'
   description: 'Test'
   
-- name: 'Süper'
+- name: 'Super'
   github_path: '/hilmicoskun/saplatform'
   img: 'static/img/landing/saplatform.png'
   description: 'Test'
